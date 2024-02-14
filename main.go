@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("test")
+	n, _ := fmt.Println("test", 42, true)
+	fmt.Println(n)
 }
+
+// 결과
+// test 42 true
+// 13
